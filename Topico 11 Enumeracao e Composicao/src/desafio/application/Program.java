@@ -15,7 +15,7 @@ public class Program {
         String departmentName = scanner.nextLine();
         System.out.println("Dia do pagamento:");
         int departmentPayDay = scanner.nextInt();
-cd ..
+
         scanner.nextLine();
 
         System.out.println("Email:");
