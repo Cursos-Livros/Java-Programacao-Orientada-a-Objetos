@@ -1,6 +1,6 @@
-package aula4excessoespersonalizadas.solucao2boa.application;
+package aula4excessoespersonalizadas.solucao2ruim.application;
 
-import aula4excessoespersonalizadas.solucao2boa.entities.Reservation;
+import aula4excessoespersonalizadas.solucao2ruim.entities.Reservation;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

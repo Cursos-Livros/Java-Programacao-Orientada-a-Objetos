@@ -1,4 +1,4 @@
-package aula4excessoespersonalizadas.solucao2boa.entities;
+package aula4excessoespersonalizadas.solucao2ruim.entities;
 
 import java.time.Duration;
 import java.time.LocalDate;
