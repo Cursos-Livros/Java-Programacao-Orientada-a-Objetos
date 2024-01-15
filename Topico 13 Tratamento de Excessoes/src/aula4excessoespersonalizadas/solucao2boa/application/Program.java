@@ -1,10 +1,8 @@
-package aula4excessoespersonalizadas.solucao1ruim.application;
+package aula4excessoespersonalizadas.solucao2boa.application;
 
-import aula4excessoespersonalizadas.solucao1ruim.model.entities.Reservation;
+import aula4excessoespersonalizadas.solucao2boa.entities.Reservation;
 
-import java.text.ParseException;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
@@ -39,18 +37,14 @@ public class Program {
             System.out.println("Enter checkout date:");
             checkout = LocalDate.parse(scanner.nextLine(), dateFormatter);
 
-            LocalDate now = LocalDate.now();
-            if (checkin.isBefore(now) || checkout.isBefore(now)) {
-                System.out.println("Error in reservation: Reservation dates for update must be future dates");
-            } else if (checkin.isAfter(checkout)) {
-                System.out.println("Error in reservation: Check-out date must be after check-in date");
+            String updateReservationError = reservation.updateDates(checkin, checkout);
+            if (updateReservationError != null) {
+                System.out.println("Error in reservation: " + updateReservationError);
             } else {
-                reservation.updateDates(checkin, checkout);
                 System.out.println(reservation);
-
             }
-        }
 
+        }
         scanner.close();
     }
 }

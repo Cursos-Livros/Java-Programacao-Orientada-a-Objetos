@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c610601c-e0c6-40b6-b83b-9cfafd00bfa4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topico 13 Tratamento de Excessoes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula1trycatch/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula2pilhachamadametodostacktrace/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula3blocofinally/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula4excessoespersonalizadas/solucao1ruim/application/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula4excessoespersonalizadas/solucao1ruim/model/entities/Reservation.java" afterDir="false" />
-    </list>
+    <list default="true" id="c610601c-e0c6-40b6-b83b-9cfafd00bfa4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -75,22 +62,22 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/aula4excessoespersonalizadas/solucao1ruim/application/Program.java</url>
-          <line>56</line>
+          <line>52</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/aula4excessoespersonalizadas/solucao1ruim/application/Program.java</url>
-          <line>53</line>
+          <line>49</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/aula4excessoespersonalizadas/solucao1ruim/model/entities/Reservation.java</url>
-          <line>63</line>
+          <line>73</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/aula4excessoespersonalizadas/solucao1ruim/model/entities/Reservation.java</url>
-          <line>65</line>
+          <line>75</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
