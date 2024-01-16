@@ -1,4 +1,6 @@
-package aula4excessoespersonalizadas.solucao3boa.entities;
+package aula4excessoespersonalizadas.solucao3boa.model.entities;
+
+import aula4excessoespersonalizadas.solucao3boa.model.exception.DomainException;
 
 import java.time.Duration;
 import java.time.LocalDate;
@@ -14,7 +16,11 @@ public class Reservation {
     public Reservation() {
     }
 
-    public Reservation(Integer roomNumber, LocalDate checkin, LocalDate checkout) {
+    public Reservation(Integer roomNumber, LocalDate checkin, LocalDate checkout) throws DomainException {
+        if (checkin.isAfter(checkout)) {
+            throw new DomainException("Check-out date must be after check-in date");
+        }
+
         this.roomNumber = roomNumber;
         this.checkin = checkin;
         this.checkout = checkout;
@@ -42,15 +48,12 @@ public class Reservation {
         return days;
     }
 
-    public void updateDates(LocalDate checkin, LocalDate checkout) {
+    public void updateDates(LocalDate checkin, LocalDate checkout) throws DomainException {
         LocalDate now = LocalDate.now();
 
         // Lança a excessao
         if (checkin.isBefore(now) || checkout.isBefore(now)) {
-            throw new IllegalArgumentException("Reservation dates for update must be future dates");
-        }
-        if (checkin.isAfter(checkout)) {
-            throw new IllegalArgumentException("Check-out date must be after check-in date");
+            throw new DomainException("Reservation dates for update must be future dates");
         }
 
         this.checkin = checkin;

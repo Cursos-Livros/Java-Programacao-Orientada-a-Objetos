@@ -1,7 +1,7 @@
 package aula4excessoespersonalizadas.solucao3boa.application;
 
-import aula4excessoespersonalizadas.solucao3boa.entities.Reservation;
-import com.sun.org.apache.xerces.internal.impl.xpath.regex.ParseException;
+import aula4excessoespersonalizadas.solucao3boa.model.entities.Reservation;
+import aula4excessoespersonalizadas.solucao3boa.model.exception.DomainException;
 
 import java.time.DateTimeException;
 import java.time.LocalDate;
@@ -41,10 +41,12 @@ public class Program {
             reservation.updateDates(checkin, checkout);
             System.out.println(reservation);
 
-        } catch (DateTimeException e) {
+        } catch (IllegalArgumentException e) {
             System.out.println("Invalid Date format.");
-        } catch (IllegalArgumentException e){
+        } catch (DomainException e){
             System.out.println("Error in reservation: " + e.getMessage());
+        } catch (RuntimeException e){
+            System.out.println("Expected Error!");
         }
 
         scanner.close();
