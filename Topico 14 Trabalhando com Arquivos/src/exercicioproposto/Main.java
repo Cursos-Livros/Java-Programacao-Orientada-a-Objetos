@@ -13,23 +13,21 @@ public class Main {
         String inputPath = "C:\\Users\\JV\\Documents\\Desenvolvimento\\Java-Programacao-Orientada-a-Objetos\\Topico 14 Trabalhando com Arquivos\\src\\exercicioproposto\\in.txt";
         String outputPath = "\\C:\\Users\\JV\\Documents\\Desenvolvimento\\Java-Programacao-Orientada-a-Objetos\\Topico 14 Trabalhando com Arquivos\\src\\exercicioproposto\\out\\summary.txt";
 
-        List<Product> products = menu(scanner);
+        int productQuantity = productQuantity(scanner);
+        List<Product> products = itemsLaunch(productQuantity, scanner);
         writeFile(products, path);
         List<String> inputLine = readLines(path);
         writeSummary(inputLine, outputPath);
         scanner.close();
     }
 
-    public static List<Product> menu(Scanner scanner) {
+    public static int productQuantity(Scanner scanner) {
         System.out.println("Enter quantity of products you need enter:");
         int quantityItemsLaunch = scanner.nextInt();
 
         scanner.nextLine();
 
-        List<Product> products = new ArrayList<>();
-        products = itemsLaunch(quantityItemsLaunch, scanner);
-
-        return products;
+        return quantityItemsLaunch;
     }
 
     public static List<Product> itemsLaunch(int quantityItemsLaunch, Scanner scanner) {
