@@ -19,5 +19,5 @@ public abstract class AbstractShape implements Shape {
 		this.color = color;
 	}
 
-	public abstract double area();
+
 }
