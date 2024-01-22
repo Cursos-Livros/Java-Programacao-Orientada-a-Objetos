@@ -1,4 +1,4 @@
-package aula4herdarcumprircontrato;
+package aula4herdarcumprircontrato.entities;
 
 public interface Shape {
 

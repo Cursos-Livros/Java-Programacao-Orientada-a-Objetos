@@ -1,6 +1,7 @@
-package aula4herdarcumprircontrato;
+package aula4herdarcumprircontrato.entities;
 
-import model.enums.Color;
+import aula4herdarcumprircontrato.enums.Color;
+
 
 public class Rectangle extends AbstractShape {
 
@@ -12,6 +13,7 @@ public class Rectangle extends AbstractShape {
 		this.width = width;
 		this.height = height;
 	}
+
 
 	public Double getWidth() {
 		return width;

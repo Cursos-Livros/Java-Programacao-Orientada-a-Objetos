@@ -1,4 +1,4 @@
-package model.enums;
+package aula4herdarcumprircontrato.enums;
 
 public enum Color {
 	BLACK,

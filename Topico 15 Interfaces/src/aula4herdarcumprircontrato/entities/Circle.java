@@ -1,6 +1,7 @@
-package aula4herdarcumprircontrato;
+package aula4herdarcumprircontrato.entities;
 
-import model.enums.Color;
+import aula4herdarcumprircontrato.enums.Color;
+
 
 public class Circle extends AbstractShape {
 
@@ -9,6 +10,10 @@ public class Circle extends AbstractShape {
 	public Circle(Color color, Double radius) {
 		super(color);
 		this.radius = radius;
+	}
+
+	public Circle(Color color, double radius) {
+		super(color);
 	}
 
 	public Double getRadius() {

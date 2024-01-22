@@ -1,9 +1,10 @@
-package aula4herdarcumprircontrato;
+package aula4herdarcumprircontrato.program;
 
-import model.entities.AbstractShape;
-import model.entities.Circle;
-import model.entities.Rectangle;
-import model.enums.Color;
+import aula4herdarcumprircontrato.entities.AbstractShape;
+import aula4herdarcumprircontrato.entities.Circle;
+import aula4herdarcumprircontrato.entities.Rectangle;
+import aula4herdarcumprircontrato.enums.Color;
+
 
 public class Program {
 

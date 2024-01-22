@@ -1,6 +1,7 @@
-package aula4herdarcumprircontrato;
+package aula4herdarcumprircontrato.entities;
 
-import model.enums.Color;
+
+import aula4herdarcumprircontrato.enums.Color;
 
 public abstract class AbstractShape implements Shape {
 
@@ -17,4 +18,6 @@ public abstract class AbstractShape implements Shape {
 	public void setColor(Color color) {
 		this.color = color;
 	}
+
+	public abstract double area();
 }
