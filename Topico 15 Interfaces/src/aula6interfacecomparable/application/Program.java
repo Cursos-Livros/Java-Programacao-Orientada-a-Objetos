@@ -10,7 +10,7 @@ import java.util.List;
 public class Program {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
-        String path = "C:\\Users\\JV\\Documents\\Desenvolvimento\\Java-Programacao-Orientada-a-Objetos\\Topico 15 Interfaces\\src\\aula6interfacecomparable\\in.txt";
+        String path = "C:\\Users\\JV\\Documents\\Desenvolvimento\\Java-Programacao-Orientada-a-Objetos\\Topico 15 Interfaces\\src\\aula6interfacecomparable\git stat\in.txt";
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             String name = br.readLine();
             while (name != null) {
