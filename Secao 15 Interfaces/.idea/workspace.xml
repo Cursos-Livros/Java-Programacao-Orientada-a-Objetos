@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6156593a-b4a6-480e-b6d5-45e2529d998e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secao 15 Interfaces.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula1interface/application/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula1interface/model/entities/CarRental.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula1interface/model/entities/Invoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula1interface/model/entities/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula1interface/model/services/BrazilTaxServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula1interface/model/services/RentalServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula2solucaocominterface/application/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula2solucaocominterface/model/entities/CarRental.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula2solucaocominterface/model/entities/Invoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula2solucaocominterface/model/entities/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula2solucaocominterface/model/services/BrazilTaxServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula2solucaocominterface/model/services/RentalServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula2solucaocominterface/model/services/TaxService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topico07 Construtores this sobrecarga encapsulamento/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topico07 Construtores this sobrecarga encapsulamento/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topico07 Construtores this sobrecarga encapsulamento/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topico07 Construtores this sobrecarga encapsulamento/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topico07 Construtores this sobrecarga encapsulamento/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topico07 Construtores this sobrecarga encapsulamento/Topico07 Construtores this sobrecarga encapsulamento.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topico07 Construtores this sobrecarga encapsulamento/src/Desafio/application/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topico07 Construtores this sobrecarga encapsulamento/src/Desafio/entities/Champion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topico07 Construtores this sobrecarga encapsulamento/src/Exercicio/application/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topico07 Construtores this sobrecarga encapsulamento/src/Exercicio/entities/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topico07 Construtores this sobrecarga encapsulamento/src/aula1construtores/application/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topico07 Construtores this sobrecarga encapsulamento/src/aula1construtores/entities/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_1 Estrutura Sequencial/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_1 Estrutura Sequencial/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_1 Estrutura Sequencial/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_1 Estrutura Sequencial/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_1 Estrutura Sequencial/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_1 Estrutura Sequencial/_1 Estrutura Sequencial.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_1 Estrutura Sequencial/src/_1VariaveisTiposBasicos/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_1 Estrutura Sequencial/src/_2SaídaDadosJava/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_1 Estrutura Sequencial/src/_3ProcessamentoDadosJava/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_1 Estrutura Sequencial/src/_4EntradaDados/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_1 Estrutura Sequencial/src/_5FuncoesMatematicas/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_2EstruturaCondicional/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_2EstruturaCondicional/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_2EstruturaCondicional/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_2EstruturaCondicional/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_2EstruturaCondicional/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_2EstruturaCondicional/_2EstruturaCondicional.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_2EstruturaCondicional/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_2EstruturaCondicional/src/_1ExpressoesComparativas/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_2EstruturaCondicional/src/_2EstruturaSwitchCase/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_2EstruturaCondicional/src/_3CondicaoTernaria/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_2EstruturaCondicional/src/_4EscopoeInicializacao/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2b6D0LOuu1ulZJV4YHhrpr3yKOR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/JV/Documents/Desenvolvimento/Java-Programacao-Orientada-a-Objetos/Topico 15 Interfaces"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JV\Documents\Desenvolvimento\Java-Programacao-Orientada-a-Objetos\Secao 15 Interfaces\src\aula2solucaocominterface" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6156593a-b4a6-480e-b6d5-45e2529d998e" name="Changes" comment="" />
+      <created>1705526411209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705526411209</updated>
+    </task>
+    <servers />
+  </component>
+</project>
