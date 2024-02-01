@@ -1,4 +1,4 @@
-package aula4boundedwildcards.prolema2covariancia;
+package aula4boundedwildcards.problema2covariancia;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,6 +14,6 @@ public class Program {
         Number x = list.get(0);
 
         // Erro compilação
-        //
+        // list.add(3)
     }
 }
