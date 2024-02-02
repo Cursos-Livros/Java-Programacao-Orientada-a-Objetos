@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c6823cf-a1e5-4ce4-bd86-d2b6c1bae050" name="Changes" comment="" />
+    <list default="true" id="1c6823cf-a1e5-4ce4-bd86-d2b6c1bae050" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Secao 15 Interfaces/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topico 15 Interfaces/src/aula6interfacecomparable/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Topico 15 Interfaces/src/aula6interfacecomparable/application/Program.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +39,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/JV/Documents/Desenvolvimento/Java-Programacao-Orientada-a-Objetos/Topico 14 Trabalhando com Arquivos"
   }
 }]]></component>
   <component name="RecentsManager">
