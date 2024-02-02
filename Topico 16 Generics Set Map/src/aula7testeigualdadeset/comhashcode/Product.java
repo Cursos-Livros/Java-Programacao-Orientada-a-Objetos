@@ -1,4 +1,6 @@
-package aula7testeigualdadeset;
+package aula7testeigualdadeset.comhashcode;
+
+import java.util.Objects;
 
 public class Product {
     private String name;
@@ -24,4 +26,5 @@ public class Product {
     public void setPrice(Double price) {
         this.price = price;
     }
+
 }

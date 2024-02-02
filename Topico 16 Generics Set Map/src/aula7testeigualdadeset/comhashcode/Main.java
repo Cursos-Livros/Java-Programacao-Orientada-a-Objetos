@@ -1,4 +1,4 @@
-package aula7testeigualdadeset;
+package aula7testeigualdadeset.comhashcode;
 
 import java.util.HashSet;
 import java.util.Set;
