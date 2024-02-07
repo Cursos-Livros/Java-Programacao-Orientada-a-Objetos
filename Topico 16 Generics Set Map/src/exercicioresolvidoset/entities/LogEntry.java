@@ -1,4 +1,4 @@
-package exerciciofixacaoset.entities;
+package exercicioresolvidoset.entities;
 
 import java.time.Instant;
 import java.util.Objects;

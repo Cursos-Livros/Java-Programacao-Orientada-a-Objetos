@@ -1,6 +1,6 @@
-package exerciciofixacaoset.application;
+package exercicioresolvidoset.application;
 
-import exerciciofixacaoset.entities.LogEntry;
+import exercicioresolvidoset.entities.LogEntry;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
