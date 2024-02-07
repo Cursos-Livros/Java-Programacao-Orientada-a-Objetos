@@ -1,6 +1,6 @@
-package exerciciodefixacaoSet.application;
+package exerciciofixacaoSet.application;
 
-import exerciciodefixacaoSet.entities.Course;
+import exerciciofixacaoSet.entities.Course;
 
 import java.util.HashSet;
 import java.util.Scanner;

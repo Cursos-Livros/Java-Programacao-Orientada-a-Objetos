@@ -1,4 +1,4 @@
-package exerciciodefixacaoSet.entities;
+package exerciciofixacaoSet.entities;
 
 import java.util.Objects;
 
