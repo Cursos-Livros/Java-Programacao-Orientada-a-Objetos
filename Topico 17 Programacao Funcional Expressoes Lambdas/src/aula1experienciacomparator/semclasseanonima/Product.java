@@ -1,4 +1,6 @@
-package aula1experienciacomparator.comclasseanonima;
+package aula1experienciacomparator.semclasseanonima;
+
+import java.util.Comparator;
 
 public class Product {
     private String name;

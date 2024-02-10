@@ -1,7 +1,7 @@
-import aula1experienciacomparator.semclasseanonima.MyComparator;
-import aula1experienciacomparator.semclasseanonima.Product;
+package aula1experienciacomparator.semclasseanonima;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class Main {
