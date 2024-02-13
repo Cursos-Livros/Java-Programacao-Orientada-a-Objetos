@@ -1,4 +1,4 @@
-package aula2predicate.referencemthodmetodoestatico;
+package aula2predicate.referencemethodnaoestatico;
 
 public class Product {
     private String name;
@@ -25,9 +25,10 @@ public class Product {
         this.price = price;
     }
 
-    // Static method usado no reference method
-    public static Boolean staticProductPredicate(Product product) {
-        return product.getPrice() >= 100;
+    // Non Static method usado no reference method
+    // Sem parametro pois trabalha com a propria instância do objeto
+    public Boolean nonStaticProductPredicate() {
+        return price >= 100;
     }
 
     @Override
