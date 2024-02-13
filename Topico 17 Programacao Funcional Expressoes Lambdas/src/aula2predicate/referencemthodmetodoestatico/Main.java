@@ -1,7 +1,5 @@
-package aula2predicate.predicadoimplentacaointerface;
+package aula2predicate.referencemthodmetodoestatico;
 
-
-import aula2predicate.referencemthodmetodoestatico.Product;
 import aula2predicate.referencemthodmetodoestatico.util.ProductPredicate;
 
 import java.util.ArrayList;
@@ -17,10 +15,12 @@ public class Main {
         listProduct.add(new Product("HD Case", 80.90));
 
         // Método removeIf
-        // Recebe um predicado
-        // Nesse caso expressão lambda
-        // Lembre-se expressoes lambdas e interfaces funcionais são equivalentes
-        listProduct.removeIf(new ProductPredicate());
+        // Também pode ser implementado com um Reference Method
+        // Reference Method - Metodo statico de uma classe
+        // Referencia nesse caso é a Classe ::
+        // Depois o método
+        // Logo temos Classe::metodo
+        listProduct.removeIf(Product::staticProductPredicate);
 
         for (Product product : listProduct) {
             System.out.println(product.toString());
