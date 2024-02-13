@@ -1,4 +1,6 @@
-package aula2predicate.predicadoexpressaolambda;
+package aula2predicate.predicadoimplentacaointerface;
+
+import aula2predicate.predicadoimplentacaointerface.util.ProductPredicate;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +18,7 @@ public class Main {
         // Recebe um predicado
         // Nesse caso expressão lambda
         // Lembre-se expressoes lambdas e interfaces funcionais são equivalentes
-        listProduct.removeIf(p -> p.getPrice() >= 100);
+        listProduct.removeIf(new ProductPredicate());
 
         for (Product product : listProduct) {
             System.out.println(product.toString());

@@ -1,4 +1,4 @@
-package aula2predicate.predicadoexpressaolambda;
+package aula2predicate.predicadoimplentacaointerface;
 
 public class Product {
     private String name;
