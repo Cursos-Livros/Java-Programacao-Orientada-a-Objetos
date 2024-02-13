@@ -1,4 +1,6 @@
-package aula2predicate.referencemethodnaoestatico;
+package aula2predicate.referencemthodmetodoestatico;
+
+import aula2predicate.referencemthodmetodoestatico.util.ProductPredicate;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,11 +16,11 @@ public class Main {
 
         // Método removeIf
         // Também pode ser implementado com um Reference Method
-        // Reference Method - Nesse caso metodo nao estatico
+        // Reference Method - Metodo statico de uma classe
         // Referencia nesse caso é a Classe ::
         // Depois o método
         // Logo temos Classe::metodo
-        listProduct.removeIf(Product::nonStaticProductPredicate);
+        listProduct.removeIf(Product::staticProductPredicate);
 
         for (Product product : listProduct) {
             System.out.println(product.toString());
