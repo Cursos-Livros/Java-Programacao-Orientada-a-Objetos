@@ -1,8 +1,6 @@
-package aula2predicate.referencemthodmetodoestatico.util;
+package aula2predicate.expressaolambdadeclarada.util;
 
-
-
-import aula2predicate.referencemthodmetodoestatico.Product;
+import aula2predicate.expressaolambdadeclarada.Product;
 
 import java.util.function.Predicate;
 

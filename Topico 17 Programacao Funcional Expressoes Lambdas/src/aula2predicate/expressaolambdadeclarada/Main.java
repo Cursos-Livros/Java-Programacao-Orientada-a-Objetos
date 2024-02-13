@@ -1,9 +1,8 @@
-package aula2predicate.referencemthodmetodoestatico;
-
-import aula2predicate.referencemthodmetodoestatico.util.ProductPredicate;
+package aula2predicate.expressaolambdadeclarada;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,13 +13,13 @@ public class Main {
         listProduct.add(new Product("Tablet", 450));
         listProduct.add(new Product("HD Case", 80.90));
 
+        // Variavel do tipo predicate
+        // Recebe uma funcao anonima e como implementar
+        // Pode ser o valor de uma variavel
+        Predicate<Product> predicate = product -> product.getPrice() >= 100;
+
         // Método removeIf
-        // Também pode ser implementado com um Reference Method
-        // Reference Method - Metodo statico de uma classe
-        // Referencia nesse caso é a Classe ::
-        // Depois o método
-        // Logo temos Classe::metodo
-        listProduct.removeIf(Product::staticProductPredicate);
+        listProduct.removeIf(predicate);
 
         for (Product product : listProduct) {
             System.out.println(product.toString());

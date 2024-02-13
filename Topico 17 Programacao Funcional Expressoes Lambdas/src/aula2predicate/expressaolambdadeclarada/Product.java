@@ -1,4 +1,4 @@
-package aula2predicate.referencemthodmetodoestatico;
+package aula2predicate.expressaolambdadeclarada;
 
 public class Product {
     private String name;
