@@ -26,8 +26,8 @@ public class Product {
     }
 
     // Static method usado no reference method
-    public static Boolean staticProductPredicate(Product product) {
-        return product.getPrice() >= 100;
+    public static void staticPriceUpdate(Product product) {
+        product.setPrice(product.getPrice() * 1.1);
     }
 
     @Override

@@ -1,7 +1,5 @@
 package aula3consummer.metodoestatico;
 
-import aula2predicate.referencemthodmetodoestatico.Product;
-import aula3consummer.metodoestatico.util.PriceUpdate;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,8 +16,8 @@ public class Main {
         // Método foreach
         // Percorre toda colecao
         // Executa um consummer para cada elemento
-        // Implentado com interface funcional consummer
-        listProduct.forEach(new PriceUpdate());
+        // Implentado com metodo estatico
+        listProduct.forEach(Product::staticPriceUpdate);
 
         // Método foreach
         // Utilizando reference method
