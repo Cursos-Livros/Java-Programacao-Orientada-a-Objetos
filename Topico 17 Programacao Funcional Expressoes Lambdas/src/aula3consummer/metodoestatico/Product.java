@@ -1,4 +1,4 @@
-package aula3consummer.implementacaointerface;
+package aula3consummer.metodoestatico;
 
 public class Product {
     private String name;
@@ -23,6 +23,11 @@ public class Product {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    // Static method usado no reference method
+    public static Boolean staticProductPredicate(Product product) {
+        return product.getPrice() >= 100;
     }
 
     @Override
