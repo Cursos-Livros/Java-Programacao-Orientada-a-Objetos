@@ -1,4 +1,4 @@
-package aula3consummer.expressaolambdanaodeclarada;
+package aula4function.interfacefuncional;
 
 public class Product {
     private String name;
@@ -23,11 +23,6 @@ public class Product {
 
     public void setPrice(double price) {
         this.price = price;
-    }
-
-    // Static method usado no reference method
-    public void nonStaticPriceUpdate() {
-        price = price * 1.1;
     }
 
     @Override

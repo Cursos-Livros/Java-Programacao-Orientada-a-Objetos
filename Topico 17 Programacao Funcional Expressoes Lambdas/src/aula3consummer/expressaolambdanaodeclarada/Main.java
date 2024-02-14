@@ -1,4 +1,4 @@
-package aula3consummer.expressaolambdadeclarada;
+package aula3consummer.expressaolambdanaodeclarada;
 
 
 import java.util.ArrayList;
@@ -14,15 +14,13 @@ public class Main {
         listProduct.add(new Product("Tablet", 450));
         listProduct.add(new Product("HD Case", 80.90));
 
-        // Expressao lambda declarada
-        // Variavel que recebe uma funcao anonima
-        Consumer<Product> priceUpdate = product -> product.setPrice(product.getPrice() * 1.1);
-
         // Método foreach
         // Percorre toda colecao
         // Executa um consummer para cada elemento
-        // Implentado com expressao lambda declarada
-        listProduct.forEach(priceUpdate);
+        // Implentado com expressao lambda nao declarada
+        // Expressao lambda nao declarada
+        // Argumento da funcao
+        listProduct.forEach(product -> product.setPrice(product.getPrice() * 1.1));
 
         // Método foreach
         // Utilizando reference method
