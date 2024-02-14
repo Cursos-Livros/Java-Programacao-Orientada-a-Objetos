@@ -1,8 +1,9 @@
-package aula3consummer.metodonaoestatico;
+package aula3consummer.expressaolambdadeclarada;
 
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,11 +14,15 @@ public class Main {
         listProduct.add(new Product("Tablet", 450));
         listProduct.add(new Product("HD Case", 80.90));
 
+        // Expressao lambda declarada
+        // Variavel que recebe uma funcao anonima
+        Consumer<Product> priceUpdate = product -> product.setPrice(product.getPrice() * 1.1);
+
         // Método foreach
         // Percorre toda colecao
         // Executa um consummer para cada elemento
-        // Implentado com metodo nao estatico
-        listProduct.forEach(Product::nonStaticPriceUpdate);
+        // Implentado com expressao lambda declarada
+        listProduct.forEach(priceUpdate);
 
         // Método foreach
         // Utilizando reference method

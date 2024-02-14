@@ -1,4 +1,4 @@
-package aula3consummer.metodonaoestatico;
+package aula3consummer.expressaolambdadeclarada;
 
 public class Product {
     private String name;
