@@ -1,4 +1,4 @@
-package aula4function.expressaolambdadeclarada;
+package aula4function.expressaolambdanaodeclarada;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,6 @@ public class Main {
         listProduct.add(new Product("Tablet", 450));
         listProduct.add(new Product("HD Case", 80.90));
 
-        Function<Product, String> function = (product) -> product.getName().toUpperCase();
 
         // Funcao map
         // Aplicada sobre uma expressao lambda declarada
@@ -23,7 +22,7 @@ public class Main {
         // A todos os elementos da stream
         // Entao é necessario converter antes
         // Depois reconverte-la para stream novamente
-        List<String> names = listProduct.stream().map(function).collect(Collectors.toList()); // converte para stream e depois chama a funcao map
+        List<String> names = listProduct.stream().map((product) -> product.getName().toUpperCase()).collect(Collectors.toList()); // converte para stream e depois chama a funcao map
 
         names.forEach(System.out::println);
     }
