@@ -17,7 +17,7 @@ public class main {
         System.out.print("Quantity in stock:");
         product.quantity = input.nextInt();
 
-        System.out.println(product.name + "," + product.price + "," + product.quantity);
+        System.out.println("Product data:" + product);
 
         input.close();
     }
