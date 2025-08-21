@@ -19,6 +19,21 @@ public class main {
 
         System.out.println("Product data:" + product);
 
+        // Atualiza a quantidade de produtos
+        System.out.println("Enter the number of products to be added in stock");
+        int quantity = input.nextInt();
+        product.addProducts(quantity);
+        System.out.println();
+        System.out.println("Updated data:" + product);
+
+        // Remove quantidade de produtos
+        System.out.println("Enter the number of products to be removed in stock");
+        quantity = input.nextInt();
+        product.removeProducts(quantity);
+        System.out.println();
+        System.out.println("Updated data:" + product);
+
+
         input.close();
     }
 }
