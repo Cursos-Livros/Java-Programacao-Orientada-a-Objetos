@@ -1,8 +1,8 @@
 package exercise.entites;
 
 public class Rectangle {
-    private double width;
-    private double height;
+    public double width;
+    public double height;
 
     public double area() {
         return width * height;
