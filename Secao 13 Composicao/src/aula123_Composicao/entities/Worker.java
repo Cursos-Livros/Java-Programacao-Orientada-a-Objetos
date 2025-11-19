@@ -8,12 +8,14 @@ public class Worker {
     private WorkerLevel level;
     private Double baseSalary;
     private List<HourContract> contracts = new ArrayList<>();
+    private Department department;
 
 
-    public Worker(String name, WorkerLevel level, Double baseSalary) {
+    public Worker(String name, WorkerLevel level, Double baseSalary, Department department) {
         this.name = name;
         this.level = level;
         this.baseSalary = baseSalary;
+        this.department = department;
     }
 
     public String getName() {
